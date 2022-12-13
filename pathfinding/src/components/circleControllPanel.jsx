@@ -1,4 +1,6 @@
 import React from "react"
+// import GenerateButtonControll from "./components/GenerateButton"
+
 
 export default function circleControllPanel() {
     return (
@@ -6,11 +8,11 @@ export default function circleControllPanel() {
 
 
             <div className="columns-3 text-center">
-                <input type="checkbox" classname="rounded-full w-28"/>
+                <input type="checkbox" className="rounded-full w-28"/>
                 <h2 className="pt-2">Rektangulär</h2>
-                <input type="checkbox" classname="rounded-full" />
+                <input type="checkbox" className="rounded-full" />
                 <h2 className="pt-2">Cirkulär</h2>
-                <input type="checkbox" classname="rounded-full" />
+                <input type="checkbox" className="rounded-full" />
                 <h2 className="pt-2">Gitter</h2>
             </div>
 
