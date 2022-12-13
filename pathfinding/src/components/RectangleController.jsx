@@ -7,11 +7,11 @@ export default function circleControllPanel() {
         <nav>
 
             <div className="columns-3 text-center">
-                <h2 className="pt-2">Rektangulär</h2>
+                <h2>Rektangulär</h2>
                 <input type="checkbox" classname="rounded-full w-28"/>
-                <h2 className="pt-2">Cirkulär</h2>
+                <h2>Cirkulär</h2>
                 <input type="checkbox" classname="rounded-full" />
-                <h2 className="pt-2">Gitter</h2>
+                <h2>Gitter</h2>
                 <input type="checkbox" classname="rounded-full" />
             </div>
 
@@ -36,9 +36,9 @@ export default function circleControllPanel() {
 
             <div className="columns-2 mt-4 text-center">
                 <input type="checkbox" classname="rounded-full"/>
-                <h2 className="pt-2">Rektangulär</h2>
+                <h2 className="pt-2">Block</h2>
                 <input type="checkbox" classname="rounded-full" />
-                <h2 className="pt-2">Cirkulär</h2>
+                <h2 className="pt-2">Unblock</h2>
             </div>
             
             <div className="mt-4">
