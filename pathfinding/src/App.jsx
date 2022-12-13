@@ -1,12 +1,11 @@
 import React from "react"
-import CircleControll from "./components/circleControllPanel"
-import GitterControll from "./components/gitterControllPanel"
+import CircleControll from "./components/CircleControllPanel"
+import GitterControll from "./components/GitterControllPanel"
 
 export default function App() {
 
     return (
             <>
-            {/* <CircleControll /> */}
             <GitterControll />
             </>
             
