@@ -4,7 +4,7 @@ export default function circleControllPanel() {
     return (
         <nav className="text-center">
 
-            <div className="w-1/4">
+            <div className="w-1/4 ">
                 <input type="checkbox" classname="rounded-full"/>
                 <h2>Rektangulär</h2>
                 <input type="checkbox" classname="rounded-full" />
@@ -12,17 +12,16 @@ export default function circleControllPanel() {
                 <input type="checkbox" classname="rounded-full" />
                 <h2>Gitter</h2>
             </div>
-
-            <div className="mt-4">
+            
+            <div className="mt-4 bg">
                 <h2>Antal Rum</h2>
-                <input type="range" className="appearance-none rounded-full w-4/5 mt-4" min="0" max="100"/>
+                <input type="range" className="appearance-none rounded-full w-4/5 mt-4 accent-black" min="0" max="100"/>
             </div>
 
             <div className="mt-4">
                 <h2>Complexity</h2>
-                <input type="range" className="appearance-none rounded-full w-4/5 mt-4" min="0" max="100"/>
+                <input type="range" className="appearance-none rounded-full w-4/5 mt-4 accent-black" min="0" max="100"/>
             </div>
-
-        </nav>
+                    </nav>
     )
 }
