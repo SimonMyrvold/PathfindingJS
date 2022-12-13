@@ -1,8 +1,7 @@
 import React from "react"
-import CircleControll from "./components/circleControllPanel"
-import GenerateButtonControll from "./components/GenerateButtonContollPanel"
 
-
+import CircleControll from "./components/CircleControllPanel"
+import GitterControll from "./components/GitterControllPanel"
 
 export default function App() {
 
@@ -32,6 +31,7 @@ export default function App() {
         </div>
         </div>
         </>
+            <GitterControll />
             </>
             
     )
