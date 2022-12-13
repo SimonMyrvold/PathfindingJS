@@ -7,11 +7,11 @@ export default function gitterControllPanel(){
         <nav className="text-center">
             
             <div className="columns-3 text-center">
-                <h2 className="pt-2">Rektangulär</h2>
+                <h2>Rektangulär</h2>
                 <input type="checkbox" classname="rounded-full w-28"/>
-                <h2 className="pt-2">Cirkulär</h2>
+                <h2>Cirkulär</h2>
                 <input type="checkbox" classname="rounded-full" />
-                <h2 className="pt-2">Gitter</h2>
+                <h2>Gitter</h2>
                 <input type="checkbox" classname="rounded-full" />
                 
             </div>
