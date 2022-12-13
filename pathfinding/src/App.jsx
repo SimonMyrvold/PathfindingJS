@@ -1,6 +1,5 @@
 import React from "react"
 import CircleControll from "./components/circleControllPanel"
-import GenerateButtonControll from "./components/GenerateButtonContollPanel"
 
 
 
@@ -13,7 +12,7 @@ export default function App() {
         <div className="flex flex-row space-x-4">
         <div className="box-content h-96 w-80 p-16 border-8 bg-slate-400 rounded-[30px] flex-none">
             <CircleControll />
-            <GenerateButtonControll />
+
 
         </div>
         <div className="box-content h-96 w-96 p-16 border-8 bg-slate-400 rounded-[30px] flex-1"></div>
