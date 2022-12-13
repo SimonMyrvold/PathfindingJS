@@ -3,8 +3,11 @@ import React from "react"
 import CircleControll from "./components/CircleControllPanel"
 import GitterControll from "./components/GitterControllPanel"
 import Sketch from "./Sketch"
+import Map from "./Map"
 
 export default function App() {
+
+    let world = new Map("tjo", 5, 5);
 
     return (
         //     <>
@@ -34,7 +37,10 @@ export default function App() {
         // </>
         //     <GitterControll />
         //     </>
-        <Sketch />
+        <div>
+        <Map />
+        {world}
+        </div>
     )
 
 }
