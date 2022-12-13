@@ -1,17 +1,19 @@
 import React from "react"
-import CircleControll from "./components/circleControllPanel"
-
-
+import CircleControll from "./components/CircleControllPanel"
+import GitterControll from "./components/GitterControllPanel"
+import RectangleControll from "./components/RectangleController"
 
 export default function App() {
 
     return (
             <>
-            {/* <CircleControll /> */}
             <>
         <div className="flex flex-row space-x-4">
         <div className="box-content h-96 w-80 p-16 border-8 bg-slate-400 rounded-[30px] flex-none">
-            <CircleControll />
+
+            {/* <CircleControll /> */}
+            {/* <RectangleControll /> */}
+            <GitterControll />
 
 
         </div>
