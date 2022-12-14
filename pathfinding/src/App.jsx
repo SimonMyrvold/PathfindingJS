@@ -1,15 +1,14 @@
 import React from "react"
-import Ui from "./components/Ui"
+import Ui from "./Ui_components/Ui"
 
 export default function App() {
 
     return (
         <>
-        <>
+        
         <Ui />
 
         
-        </>
         </> 
     )
 

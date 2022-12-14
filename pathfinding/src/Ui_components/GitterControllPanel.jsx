@@ -2,7 +2,7 @@ import React from "react"
 import GenerateButton from "./GenerateButton"
 
 
-export default function gitterControllPanel(){
+export default function GitterControllPanel(){
     return (
         <nav className="text-center">
 

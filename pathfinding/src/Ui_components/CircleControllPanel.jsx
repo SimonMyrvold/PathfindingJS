@@ -2,7 +2,7 @@ import React from "react"
 import GenerateButton from "./GenerateButton"
 
 
-export default function circleControllPanel() {
+export default function CircleControllPanel() {
     return (
         <nav className="text-center">
 

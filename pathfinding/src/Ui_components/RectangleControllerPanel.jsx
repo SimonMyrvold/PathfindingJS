@@ -2,7 +2,7 @@ import React from "react"
 import DropdownComponent from "./DropDownComponent"
 import GenerateButton from "./GenerateButton"
 
-export default function circleControllPanel() {
+export default function RectangleControllerPanel() {
     return (
         <nav>
 
