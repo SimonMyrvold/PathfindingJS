@@ -26,9 +26,9 @@ export default function RectangleControllerPanel() {
             </div>
 
             <div className="columns-2 mt-4 text-center">
-                <input type="checkbox" classname="rounded-full"/>
+                <input type="checkbox" className="rounded-full"/>
                 <h2 className="pt-2">Block</h2>
-                <input type="checkbox" classname="rounded-full" />
+                <input type="checkbox" className="rounded-full" />
                 <h2 className="pt-2">Unblock</h2>
             </div>
             

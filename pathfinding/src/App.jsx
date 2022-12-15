@@ -6,6 +6,7 @@ export default function App() {
     return (
         <>
         
+        {/* The UI components */}
         <Ui />
 
         
