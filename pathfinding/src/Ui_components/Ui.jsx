@@ -15,12 +15,6 @@ export default function Ui() {
                     <GameTypeSelector />
 
                 </div>
-
-                <div className="p-16 w-[200vh] border-8 bg-slate-400 rounded-[30px]">
-                    
-                    <canvas></canvas>
-
-                </div>
                 
                 <div className="box-content w-[70vh] p-16 border-8 bg-slate-400 rounded-[30px] flex-1">
                     <NameGenerator />
