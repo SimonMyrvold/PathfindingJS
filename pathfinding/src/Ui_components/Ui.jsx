@@ -1,5 +1,6 @@
 import React from "react"
 import GameTypeSelector from "./GameTypeSelector";
+import NameGenerator from "./NameGenerator";
 
 export default function Ui() {
 
@@ -19,6 +20,10 @@ export default function Ui() {
                     
                     <canvas></canvas>
 
+                </div>
+                
+                <div className="box-content w-[70vh] p-16 border-8 bg-slate-400 rounded-[30px] flex-1">
+                    <NameGenerator />
                 </div>
 
             </div>
