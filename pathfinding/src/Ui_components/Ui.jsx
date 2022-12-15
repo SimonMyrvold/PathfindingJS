@@ -1,5 +1,6 @@
 import React from "react"
 import GameTypeSelector from "./GameTypeSelector";
+import NameGenerator from "./NameGenerator";
 
 export default function Ui() {
 
@@ -8,13 +9,15 @@ export default function Ui() {
 
             <div className="flex flex-row space-x-4">
                 
-                <div className="box-content h-[70vh] w-1/6 p-16 border-8 bg-slate-400 rounded-[30px] flex-none">
+                <div className="box-content h-[70vh] w-[45vh] p-16 border-8 bg-slate-400 rounded-[30px] flex-none">
 
                     <GameTypeSelector />
 
                 </div>
 
-                <div className="box-content w-5/6 p-16 border-8 bg-slate-400 rounded-[30px] flex-1"></div>
+                <div className="box-content w-[70vh] p-16 border-8 bg-slate-400 rounded-[30px] flex-1">
+                    <NameGenerator />
+                    </div>
 
             </div>
 
