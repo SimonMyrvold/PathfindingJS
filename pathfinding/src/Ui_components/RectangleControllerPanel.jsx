@@ -2,7 +2,7 @@ import React from "react"
 import DropdownComponent from "./DropDownComponent"
 import GenerateButton from "./GenerateButton"
 
-export default function RectangleControllerPanel() {
+export default function RectangleControllerPanel(props) {
     return (
         <nav>
 
@@ -37,7 +37,10 @@ export default function RectangleControllerPanel() {
             </div>
 
             <div className="mt-4 text-center">
-                <GenerateButton />
+                <GenerateButton
+                nameGen={props.nameGen}
+
+                />
             </div>
 
         </nav>

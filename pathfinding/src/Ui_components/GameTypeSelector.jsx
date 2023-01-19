@@ -26,11 +26,17 @@ export default function GameTypeSelector(props){
         //Check the type and set the settings accordingly
         if (type == "Circle") {
             //Set the settings to the respective component
-            setSettings(<Circle />);
+            setSettings(<Circle 
+            nameGen={props.nameGen}
+
+            />);
         }
         
         if (type == "Rectangle") {
-            setSettings(<Rectangle />);
+            setSettings(<Rectangle 
+            nameGen={props.nameGen}
+
+            />);
         }
         
         if (type == "Gitter") {
