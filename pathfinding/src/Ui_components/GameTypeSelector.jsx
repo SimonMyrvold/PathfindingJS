@@ -4,7 +4,7 @@ import Rectangle from "./RectangleControllerPanel"
 import Gitter from "./GitterControllPanel"
 
 
-export default function GameTypeSelector(){
+export default function GameTypeSelector(props){
     
     //Set the default settings to a h2 tag with text
     const [settings, setSettings] = useState(
@@ -34,7 +34,9 @@ export default function GameTypeSelector(){
         }
         
         if (type == "Gitter") {
-            setSettings(<Gitter />);
+            setSettings(<Gitter 
+            nameGen={props.nameGen}
+            />);
         }
     }
 

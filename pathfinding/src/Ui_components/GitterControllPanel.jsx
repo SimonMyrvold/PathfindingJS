@@ -2,7 +2,8 @@ import React from "react"
 import GenerateButton from "./GenerateButton"
 
 
-export default function GitterControllPanel(){
+export default function GitterControllPanel(props){
+
     return (
         <nav className="text-center">
 
@@ -12,7 +13,9 @@ export default function GitterControllPanel(){
             </div>
 
             <div className="mt-4 text-center">
-                <GenerateButton />
+                <GenerateButton
+                nameGen={props.nameGen}
+                 />
             </div>
 
         </nav>
