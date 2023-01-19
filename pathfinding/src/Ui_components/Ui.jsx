@@ -19,14 +19,6 @@ export default function Ui() {
 
     }
 
-    
-function NameGenerator(){
-    
-    
- 
-
-}
-
     return (
         <>
 
