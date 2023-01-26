@@ -2,7 +2,7 @@ import React from "react"
 import DropdownComponent from "./DropDownComponent"
 import GenerateButton from "./GenerateButton"
 
-export default function RectangleControllerPanel() {
+export default function RectangleControllerPanel(props) {
     return (
         <nav>
 
@@ -26,9 +26,9 @@ export default function RectangleControllerPanel() {
             </div>
 
             <div className="columns-2 mt-4 text-center">
-                <input type="checkbox" classname="rounded-full"/>
+                <input type="checkbox" className="rounded-full"/>
                 <h2 className="pt-2">Block</h2>
-                <input type="checkbox" classname="rounded-full" />
+                <input type="checkbox" className="rounded-full" />
                 <h2 className="pt-2">Unblock</h2>
             </div>
             
@@ -37,7 +37,10 @@ export default function RectangleControllerPanel() {
             </div>
 
             <div className="mt-4 text-center">
-                <GenerateButton />
+                <GenerateButton
+                nameGen={props.nameGen}
+
+                />
             </div>
 
         </nav>

@@ -2,7 +2,7 @@ import React from "react"
 import GenerateButton from "./GenerateButton"
 
 
-export default function CircleControllPanel() {
+export default function CircleControllPanel(props) {
     return (
         <nav className="text-center">
 
@@ -18,7 +18,10 @@ export default function CircleControllPanel() {
 
 
             <div className="mt-4 text-center">
-                <GenerateButton />
+                <GenerateButton
+                nameGen={props.nameGen}
+
+                />
             </div>
 
         </nav>
