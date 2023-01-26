@@ -1,5 +1,5 @@
 import React from "react"
-import Ui from "./Ui_components/Ui"
+import Ui from "./components/ui_components/Ui"
 
 export default function App() {
 
